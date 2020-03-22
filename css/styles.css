@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+html {
+    scroll-behavior: smooth
+}
+.contenedor,
+.fotos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap
+}
+.caja {
+    width: 32%;
+    height: 40vh;
+    margin-bottom: 15px;
+    overflow: hidden
+}
+.caja img {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    object-fit: cover
+}
+.contenedor {
+    width: 100%;
+    height: 875px;
+    vertical-align: top;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto
+}
+hr {
+    border: 1.5px solid rgba(0, 0, 0, 0.589)
+}
+.logo {
+    width: 150px;
+    height: 150px
+}
+.text-title-absolute {
+    font-size: 80px
+}
+.text-absolute {
+    font-size: 40px
+}
+.absolute-left {
+    padding-bottom: 400px;
+    margin-right: 530px
+}
+.absolute-left-2 {
+    padding-bottom: 400px;
+    margin-right: 600px
+}
+.absolute-right {
+    padding-bottom: 400px;
+    margin-left: 550px
+}
+.block-navbar {
+    position: sticky;
+    top: 0;
+    background-color: #fff
+}
+.bg-white {
+    background-color: #fff
+}
+nav {
+    height: 50px
+}
+.contacto {
+    height: 95vh
+}
+.contacto-img {
+    height: 400px;
+    width: 400px
+}
+.icons {
+    width: 70px;
+    margin: 5px
+}
+.text-title {
+    font-family: 'Fira Sans', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.897)
+}
+.text-subtitle {
+    font-family: 'Gelasio', serif;
+    text-align: center
+}
+.text-paragraph {
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.897)
+}
+.text-paragraph2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 27px;
+    text-align: center
+}
+.box-contacto {
+    width: 30%;
+    margin: 2px
+}
+.link {
+    color: rgba(22, 22, 22, 0.822)
+}
+.link:hover {
+    color: rgba(0, 0, 0, 0.589)
+}
+.alinear {
+    margin: auto
+}
+#nav-responsive {
+    display: none
+}
+.whatsapp-icon {
+    position: sticky;
+    display: inline-flex;
+    top: 50px;
+    float: right
+}
+@media screen and (max-width: 990px) {
+    #carouselExampleControls {
+        display: none
+    }
+    #nav-normal {
+        display: none
+    }
+    #nav-responsive {
+        display: block
+    }
+    .rs {
+        display: none
+    }
+}
+@media screen and (max-width: 800px) {
+    .caja {
+        width: 90%;
+        height: 50vh;
+        margin-bottom: 15px;
+        overflow: hidden
+    }
+    .contacto {
+        width: 100%
+    }
+    #nav-normal {
+        display: none
+    }
+    .rs {
+        display: none
+    }
+}
